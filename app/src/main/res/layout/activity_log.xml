@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:background="#DDDDDD"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".LogActivity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="365dp"
+        android:layout_height="96dp"
+        android:layout_weight="6"
+        android:fontFamily="@font/font3"
+        android:text="           My LOG"
+        android:textColor="#FFA7AA"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_weight="6"
+        android:text="     BPM         STATE          TIME"
+        android:textSize="20sp" />
+
+
+    <ListView
+        android:id="@+id/listView_main_list"
+        android:layout_width="match_parent"
+        android:layout_height="629dp"
+        android:layout_margin="5dp"
+        android:layout_weight="6"
+        android:padding="5dp" />
+
+</LinearLayout>
